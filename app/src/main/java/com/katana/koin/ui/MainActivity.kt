@@ -26,6 +26,7 @@ class MainActivity : BaseActivity<ActivityMainBinding, MainViewModel>(), MainNav
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         logger.error("onCreate")
+        logger.error("onCreate")
     }
 
     override fun updateUI(savedInstanceState: Bundle?) {
